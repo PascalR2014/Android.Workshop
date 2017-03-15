@@ -1,0 +1,93 @@
+
+//margin and padding only on "dp" other, TextView in "sp".
+//ImageView in "dp" mode !
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/white"
+android:layout_marginLeft="20sp"
+android:layout_marginRight="20sp"
+tools:context="com.example.android.project1.MainActivity">
+
+<ImageView
+    android:id="@+id/logo"
+    android:src="@drawable/logo"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:scaleType="fitXY"/>
+
+<TextView
+    android:id="@+id/para1"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="0sp"
+    android:layout_weight="1"
+    android:layout_marginTop="10dp"
+    android:textSize="20sp"
+    android:text="I can create your book cover, like you want !"/>
+
+<TextView
+    android:id="@+id/para2"
+    android:layout_width="match_parent"
+    android:layout_height="0sp"
+    android:layout_weight="1"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:text="Ebook"
+    android:textSize="20sp" />
+
+<TextView
+    android:id="@+id/para3"
+    android:layout_width="match_parent"
+    android:layout_height="0sp"
+    android:layout_weight="1"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="80dp"
+    android:text="Book"
+    android:textSize="20sp" />
+
+<TextView
+    android:id="@+id/para4
+    android:layout_width="match_parent"
+    android:layout_height="0sp"
+    android:layout_weight="1"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:text="Advertising and many more ..."
+    android:textSize="20sp" />
+
+<ImageView
+    android:id="@+id/photo"
+    android:src="@drawable/designer"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:scaleType="fitCenter"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="32sp"
+    android:alpha="0.8"
+    android:background="#babfb7"
+    android:gravity="center"
+    android:text="contact@gmail.com"
+    android:textStyle="bold"
+    android:textSize="21sp" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="32sp"
+    android:alpha="0.8"
+    android:background="#babfb7"
+    android:gravity="center"
+    android:text="www.misha.designer.com"
+    android:textStyle="bold"
+    android:textSize="21sp"/>
+
+
+</LinearLayout>
