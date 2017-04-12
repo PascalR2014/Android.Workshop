@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context=".MainActivity"
+tools:showIn="@layout/activity_main">
+
+<LinearLayout
+    style="@style/linear_v"
+    android:layout_marginTop="@dimen/c_htop"
+    android:layout_marginBottom="@dimen/c_htop"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle">
+        <LinearLayout
+            style="@style/linear_v" >
+
+            <FrameLayout
+                style="@style/frame_layout">
+
+                <ImageView
+                    android:id="@+id/imageViewDexter"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/dx" />
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/which"
+                    />
+            </FrameLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_groupQ1"
+                style="@style/std_layout"
+                android:layout_margin="@dimen/margin_radio">
+                <RadioButton
+                    android:id="@+id/radio1Q1"
+                    style="@style/radio_button"
+                    android:text="@string/dw"
+                    />
+                <RadioButton
+                    android:id="@+id/radio2Q1"
+                    style="@style/radio_button"
+                    android:text="@string/tf"
+                    />
+                <RadioButton
+                    android:id="@+id/radio3Q1"
+                    style="@style/radio_button"
+                    android:text="@string/xm"
+                    />
+                <RadioButton
+                    android:id="@+id/radio4Q1"
+                    style="@style/radio_button"
+                    android:text="@string/dx"
+                    />
+            </RadioGroup>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        android:layout_marginTop="@dimen/card_margin_top">
+
+        <LinearLayout style="@style/linear_v">
+
+            <FrameLayout style="@style/frame_layout">
+
+                <ImageView
+                    android:id="@+id/imageViewDaredevil"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/dd" />
+
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/which" />
+
+            </FrameLayout>
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/std_layout"
+                android:layout_margin="@dimen/margin_radio">
+
+                <EditText
+                    android:maxLines="1"
+                    android:inputType="text"
+                    android:id="@+id/editTextQ2"
+                    style="@style/std_layout"
+                    android:hint="@string/hint_name" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        android:layout_marginTop="@dimen/card_margin_top">
+        <LinearLayout
+            style="@style/linear_v" >
+
+            <FrameLayout
+                style="@style/frame_layout">
+                <ImageView
+                    android:id="@+id/imageViewArrow"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/arrow"/>
+
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/season_number"/>
+
+            </FrameLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_groupQ3"
+                style="@style/std_layout"
+                android:layout_margin="@dimen/margin_radio">
+                <RadioButton
+                    android:id="@+id/radio1Q3"
+                    style="@style/radio_button"
+                    android:text="@string/s2"
+                    />
+                <RadioButton
+                    android:id="@+id/radio2Q3"
+                    style="@style/radio_button"
+                    android:text="@string/s7"
+                    />
+                <RadioButton
+                    android:id="@+id/radio3Q3"
+                    style="@style/radio_button"
+                    android:text="@string/s3"
+                    />
+                <RadioButton
+                    android:id="@+id/radio4Q3"
+                    style="@style/radio_button"
+                    android:text="@string/s5"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        android:layout_marginTop="@dimen/card_margin_top">
+        <LinearLayout
+            style="@style/linear_v">
+
+            <FrameLayout
+                style="@style/frame_layout">
+                <ImageView
+                    android:id="@+id/imageViewSense8"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/s8"/>
+
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/whats"/>
+
+            </FrameLayout>
+
+
+            <RadioGroup
+                android:id="@+id/radio_groupQ4"
+                style="@style/std_layout"
+                android:layout_margin="@dimen/margin_radio">
+                <RadioButton
+                    android:id="@+id/radio1Q4"
+                    style="@style/radio_button"
+                    android:text="@string/sp"
+                    />
+                <RadioButton
+                    android:id="@+id/radio2Q4"
+                    style="@style/radio_button"
+                    android:text="@string/s8"
+                    />
+                <RadioButton
+                    android:id="@+id/radio3Q4"
+                    style="@style/radio_button"
+                    android:text="@string/fs"
+                    />
+                <RadioButton
+                    android:id="@+id/radio4Q4"
+                    style="@style/radio_button"
+                    android:text="@string/v"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        android:layout_marginTop="@dimen/card_margin_top">
+        <LinearLayout
+            style="@style/linear_v">
+
+            <FrameLayout
+                style="@style/frame_layout">
+                <ImageView
+                    android:id="@+id/imageViewBcs"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/bcs"/>
+
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/actor"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                style="@style/linear_v"
+                android:layout_margin="@dimen/card_margin_top">
+                <LinearLayout
+                    style="@style/std_layout"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox1Q5"
+                        style="@style/checkBox"
+                        android:text="@string/to"
+                        />
+                    <CheckBox
+                        android:id="@+id/checkbox2Q5"
+                        style="@style/checkBox"
+                        android:text="@string/bb"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/std_layout"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox3Q5"
+                        style="@style/checkBox"
+                        android:text="@string/bcs"/>
+                    <CheckBox
+                        android:id="@+id/checkbox4Q5"
+                        style="@style/checkBox"
+                        android:text="@string/t100"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        android:layout_marginTop="@dimen/card_margin_top">
+        <LinearLayout
+            style="@style/linear_v">
+
+            <FrameLayout
+                style="@style/frame_layout">
+                <ImageView
+                    android:id="@+id/imageViewStrangerT"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/st"/>
+
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/which"/>
+
+            </FrameLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_groupQ6"
+                style="@style/std_layout"
+                android:layout_margin="@dimen/margin_radio">
+                <RadioButton
+                    android:id="@+id/radio1Q6"
+                    style="@style/radio_button"
+                    android:text="@string/bb"
+                    />
+                <RadioButton
+                    android:id="@+id/radio2Q6"
+                    style="@style/radio_button"
+                    android:text="@string/ff"
+                    />
+                <RadioButton
+                    android:id="@+id/radio3Q6"
+                    style="@style/radio_button"
+                    android:text="@string/twd"
+                    />
+                <RadioButton
+                    android:id="@+id/radio4Q6"
+                    style="@style/radio_button"
+                    android:text="@string/st"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        android:layout_marginTop="@dimen/card_margin_top">
+        <LinearLayout
+            style="@style/linear_v">
+
+            <FrameLayout
+                style="@style/frame_layout">
+                <ImageView
+                    android:id="@+id/imageViewBB"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/bb"/>
+
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/whats"/>
+
+            </FrameLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_groupQ7"
+                style="@style/std_layout"
+                android:layout_margin="@dimen/margin_radio">
+                <RadioButton
+                    android:id="@+id/radio1Q7"
+                    style="@style/radio_button"
+                    android:text="@string/l"
+                    />
+                <RadioButton
+                    android:id="@+id/radio2Q7"
+                    style="@style/radio_button"
+                    android:text="@string/bb"
+                    />
+                <RadioButton
+                    android:id="@+id/radio3Q7"
+                    style="@style/radio_button"
+                    android:text="@string/lme"
+                    />
+                <RadioButton
+                    android:id="@+id/radio4Q7"
+                    style="@style/radio_button"
+                    android:text="@string/ncis"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        android:layout_marginTop="@dimen/card_margin_top">
+        <LinearLayout
+            style="@style/linear_v">
+
+            <FrameLayout
+                style="@style/frame_layout">
+                <ImageView
+                    android:id="@+id/imageViewLukeC"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/lc"/>
+
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/actor"/>
+
+            </FrameLayout>
+            <LinearLayout
+                style="@style/linear_v"
+                android:layout_margin="@dimen/card_margin_top">
+                <LinearLayout
+                    style="@style/std_layout"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox1Q8"
+                        style="@style/checkBox"
+                        android:text="@string/jj"
+                        />
+                    <CheckBox
+                        android:id="@+id/checkbox2Q8"
+                        style="@style/checkBox"
+                        android:text="@string/lc"/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/std_layout"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox3Q8"
+                        style="@style/checkBox"
+                        android:text="@string/nt"/>
+                    <CheckBox
+                        android:id="@+id/checkbox4Q8"
+                        style="@style/checkBox"
+                        android:text="@string/g"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        android:layout_marginTop="@dimen/card_margin_top">
+        <LinearLayout
+            style="@style/linear_v">
+
+            <FrameLayout
+                style="@style/frame_layout">
+                <ImageView
+                    android:id="@+id/imageViewSherlock"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/sh"/>
+
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/episode"/>
+
+            </FrameLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_margin="@dimen/margin_radio"
+                style="@style/std_layout">
+                <EditText
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:id="@+id/editTextQ9"
+                    style="@style/std_layout"
+                    android:hint="@string/hint_number"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle"
+        android:layout_marginTop="@dimen/card_margin_top">
+        <LinearLayout
+            style="@style/linear_v">
+
+            <FrameLayout
+                style="@style/frame_layout">
+                <ImageView
+                    android:id="@+id/imageViewTwd"
+                    style="@style/imageView_quizCard"
+                    android:contentDescription="@string/twd"/>
+
+                <TextView
+                    style="@style/textView_quizCard"
+                    android:text="@string/whats"/>
+
+            </FrameLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_groupQ10"
+                style="@style/std_layout"
+                android:layout_margin="@dimen/margin_radio">
+                <RadioButton
+                    android:id="@+id/radio1Q10"
+                    style="@style/radio_button"
+                    android:text="@string/bb"
+                    />
+                <RadioButton
+                    android:id="@+id/radio2Q10"
+                    style="@style/radio_button"
+                    android:text="@string/ff"
+                    />
+                <RadioButton
+                    android:id="@+id/radio3Q10"
+                    style="@style/radio_button"
+                    android:text="@string/twd"
+                    />
+                <RadioButton
+                    android:id="@+id/radio4Q10"
+                    style="@style/radio_button"
+                    android:text="@string/iz"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_submitQuestion"
+        style="@style/btn_dialog"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="submit"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

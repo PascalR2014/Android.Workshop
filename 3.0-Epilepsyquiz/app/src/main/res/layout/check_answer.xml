@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/std_layout">
+
+    <TableLayout style="@style/linear_v">
+
+        <TextView
+            android:id="@+id/nameAnswer"
+            style="@style/text_result"
+            android:text="@string/text_result" />
+
+        <TableRow
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                style="@style/table_header"
+                android:layout_column="1"
+                android:text="@string/text_result_head1" />
+
+            <TextView
+                style="@style/table_header"
+                android:text="@string/text_result_head2" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="1."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer1"
+                style="@style/text_row"
+                android:text="" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view1" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="2."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer2"
+                style="@style/text_row"
+                android:text="" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view2" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="3."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer3"
+                style="@style/text_row"
+                android:text="" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view3" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="4."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer4"
+                style="@style/text_row"
+                android:text="" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view4" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="5."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer5"
+                style="@style/text_row"
+                android:text=""
+                android:textSize="14sp" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view5"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="6."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer6"
+                style="@style/text_row"
+                android:text="" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view6" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="7."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer7"
+                style="@style/text_row"
+                android:text="" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view7" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="8."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer8"
+                style="@style/text_row"
+                android:text=""
+                android:textSize="14sp" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view8"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="9."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer9"
+                style="@style/text_row"
+                android:text="" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view9" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                android:text="10."
+                android:textSize="@dimen/text_row_size" />
+
+            <TextView
+                android:id="@+id/answer10"
+                style="@style/text_row"
+                android:text="" />
+
+            <TextView
+                style="@style/text_row_c"
+                android:text="@string/text_view10" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,63 @@
+<resources>
+<string name="app_name">Epilepsyquiz</string>
+<string name="who">Who are you?</string>
+<string name="btn_name">submit</string>
+<string name="btn_grading">grading</string>
+<!-- Question -->
+<string name="which">"C'est quoi l'epilepsie ?"</string>
+<string name="whats">What\'s the name of this Tv Series?</string>
+<string name="season_number">How many season have this Tv Series?</string>
+<string name="episode">How many episode for season have this Tv Series?</string>
+<string name="actor">In which Tv Series appear this actor?</string>
+<!-- Result -->
+<string name="text_result1">Contratulation on finish this quizz!</string>
+<string name="text_result2">Press the button below to see your result..</string>
+<string name="text_result">, look the result!</string>
+<string name="text_result_head1">Your Answer</string>
+<string name="text_result_head2">Correct Answer</string>
+
+<string name="text_view1">Dexter</string>
+<string name="text_view2">Daredevil</string>
+<string name="text_view3">5</string>
+<string name="text_view4">Sense8</string>
+<string name="text_view5">Braking Bad, Better Call Saul</string>
+<string name="text_view6">Stranger Things</string>
+<string name="text_view7">Breaking Bad</string>
+<string name="text_view8">Jessica Jones, Luke Cage</string>
+<string name="text_view9">3</string>
+<string name="text_view10">The Walking Dead</string>
+<!-- Answer -->
+<string name="bb">Breaking Bad</string>
+<string name="twd">The Walking Dead</string>
+<string name="iz">iZombie</string>
+<string name="ff">Flashforward</string>
+<string name="jj">Jessica Jones</string>
+<string name="nt">Ninja Turtles</string>
+<string name="lc">Luke Cage</string>
+<string name="g">Griffin</string>
+<string name="ncis">NCIS</string>
+<string name="l">Legion</string>
+<string name="lme">Last man on earth</string>
+<string name="st">Stranger Things</string>
+<string name="bcs">Better Call Saul</string>
+<string name="t100">The 100</string>
+<string name="to">The Original</string>
+<string name="sp">Supernatural</string>
+<string name="s8">Sense8</string>
+<string name="fs">Falling Sky</string>
+<string name="v">Vikings</string>
+<string name="tf">The Flash</string>
+<string name="arrow">Arrow</string>
+<string name="dx">Une maladie</string>
+<string name="sh">Sherlock</string>
+<string name="dd">Daredevil</string>
+<string name="xm">X-men</string>
+<string name="dw">Dottor Who</string>
+<string name="s2">2</string>
+<string name="s3">3</string>
+<string name="s5">5</string>
+<string name="s7">7</string>
+<string name="hint_name">Type name here</string>
+<string name="hint_number">Type number here</string>
+<string name="hint_who">Your name here</string>
+</resources>
